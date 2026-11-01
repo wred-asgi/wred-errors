@@ -1,6 +1,6 @@
 # wred-errors
 
-Explicit exception mapping for async Wred handlers. Python 3.11+, Wred 0.13–0.14.
+Explicit exception mapping for async Wred handlers. Python 3.11+, Wred 0.13–0.15.
 
 ```sh
 pip install ./extensions/wred-errors
@@ -40,6 +40,6 @@ Run `pip install -e '.[test]'` and `pytest` inside this repository.
 
 ## Extension compatibility
 
-Follows the [Wred extension contract v1](https://github.com/wred-asgi/.github/blob/main/EXTENSIONS.md).
+Follows the [Wred extension contract v1.1](https://github.com/wred-asgi/.github/blob/main/EXTENSIONS.md).
 Keep `@app.route` outermost for
 route decorators; register routes on the inner Wred app when using ASGI wrappers.

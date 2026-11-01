@@ -3,7 +3,7 @@
 from functools import wraps
 from inspect import isawaitable
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 
 def handle_errors(handlers):
